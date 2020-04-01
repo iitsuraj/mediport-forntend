@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mediport</title>
+    <link href="img/favicon.ico" rel="shortcut icon" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="upload-css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="upload-css/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="upload-css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="upload-css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendor/select2/select2.css" />
+    <link rel="stylesheet" href="upload-css/style.css" />
+</head>
+
+<body>
+    <header class="header bg-dark">
+        <nav class="navbar navbar-static-top navbar-expand-lg navbar-light header-sticky">
+            <div class="container-fluid"><button id="nav-icon4" type="button" class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"><span></span><span></span><span></span></button><a
+                    class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.svg" alt="logo"></a>
+                <div class="navbar-collapse collapse justify-content-end">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Covid-19</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tests<i
+                                    class="fas fa-chevron-down fa-xs"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">test1</a></li>
+                                <li><a class="dropdown-item" href="#">test2</a></li>
+                                <li><a class="dropdown-item" href="#">test3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="header-inner bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-primary">Covid-19</h2>
+                    <ol class="breadcrumb mb-0 p-0">
+                        <li class="breadcrumb-item"><a href="index.html"> Home </a></li>
+                        <li class="breadcrumb-item"><i class="fas fa-chevron-right"></i><a href="tests.html"> Tests </a>
+                        </li>
+                        <li class="breadcrumb-item active"> <i class="fas fa-chevron-right"></i> <span> Covid-19 </span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="space-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="form-row">
+                        <div class="form-group col-md-3">
+                            <label>Zip code *</label>
+                            <input type="text" class="form-control" value="" placeholder="Enter Zipcode" required>
+                        </div>
+                        <div class="form-group col-md-3 select-border">
+                            <label>Gender *</label>
+                            <select class="form-control basic-select" required>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 select-border">
+                            <label>Age *</label>
+                            <select class="form-control basic-select" required>
+                                <option value="value 01">Under 12</option>
+                                <option value="value 02">12 - 40</option>
+                                <option value="value 03">40 - 60</option>
+
+                                <option value="value 04">Above 60</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 select-border">
+                            <label>Smoking *</label>
+                            <select class="form-control basic-select" required>
+                                <option value="no">No</option>
+                                <option value="yes">Yes</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 select-border">
+                            <label>Travel History *</label>
+                            <select class="form-control basic-select" required>
+                                <option value="">You or any family member travelled or come in contact with someone to
+                                    following country in last 14 days</option>
+                                <option value="">You or any family member travelled or come in contact with someone to
+                                    following country in last 14 days</option>
+                                <option value="usa">USA</option>
+                                <option value="china">China</option>
+                                <option value="italy">Italy</option>
+                                <option value="spain">Spain</option>
+                                <option value="iran">Iran</option>
+                                <option value="europe">Europe</option>
+                                <option value="middle-east-asia">Middle East Asia</option>
+                                <option value="southeast-asia">Southeast Asia</option>
+                                <option value="none">None of the above</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 select-border">
+                            <label>Exposure Details *</label>
+                            <select class="form-control basic-select" required>
+                                <option>Been in contact with someone with dry cough, fever or visible difficulty in
+                                    breathing in last 14 days</option>
+                                <option>History of travel or meeting in affected geographical area during the last 14
+                                    days</option>
+                                <option>Been in close contact with confirmed COVID-19 patients in last 14 days</option>
+                                <option>No travel history</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 select-border">
+                            <label>Body Tempperature *</label>
+                            <select class="form-control basic-select" required>
+                                <option>Normal(96-98.6)</option>
+                                <option>Fever(98.6-102)</option>
+                                <option>High Fever(&gt;102)</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 select-border">
+                            <label>Select Symptoms *</label>
+                            <select class="form-control basic-select" required multiple>
+                                <option>Dry Cough</option>
+                                <option>Sore throat</option>
+                                <option>Weakness</option>
+                                <option>Shortness of Breath</option>
+                                <option>Persistent pain and pressure in chest</option>
+                                <option>None</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-12 select-border">
+                            <label>Current or Past Comorbidities *</label>
+                            <select class="form-control basic-select" required>
+                                <option>Kidney Disease</option>
+                                <option>Asthma or Lung Disease</option>
+                                <option>Cerebrovascular Disease</option>
+                                <option>Tumor</option>
+                                <option>Diabetes</option>
+                                <option>Hypertension</option>
+                                <option selected>None</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <a class="btn btn-primary" href="#">Submit</a>
+                        </div>
+                    </form>
+                </div>
+    </section>
+    <footer class="footer mt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center text-md-left">
+                        <p class="mb-0">&copy;Copyright <span id="copyright"></span><a href="#">mediport-testber </a>All
+                            Rights Reserved </p>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="social d-flex justify-content-lg-end justify-content-center">
+                            <ul class="list-unstyled">
+                                <li class="facebook"><a href="#">FB</a></li>
+                                <li class="twitter"><a href="#">TW</a></li>
+                                <li class="linkedin"><a href="#">IN</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="back-to-top" class="back-to-top"><i class="fas fa-angle-up"></i></div>
+    <script src="alljs.js"></script>
+    <script src="vendor/select2/select2.full.js"></script>
+    <script src="custom.js"></script>
+</body>
+
+</html>
